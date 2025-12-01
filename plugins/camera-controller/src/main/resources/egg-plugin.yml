@@ -1,0 +1,4 @@
+name: camera-controller
+version: 1.0.0
+author: egg
+main: com.egg.plugins.camera.CameraPlugin
