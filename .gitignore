@@ -1,0 +1,44 @@
+# Gradle
+.gradle/
+build/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Log files
+*.log
+
+# Jar files
+*.jar
+
+# Misc
+.DS_Store
+/launcher/build/
+/build/
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*
+!/.gitignore
+!/gradlew
+!/gradlew.bat
+!/start.bat
+!/start.sh
+!/README.md
+!/mods
+!/plugins
+!/launcher
+!/gradle
+!/settings.gradle.kts
+
+# Keep mod and plugin example files, but not downloaded jars
+mods/*
+!mods/placeholder.txt
+plugins/*
+!plugins/placeholder.txt

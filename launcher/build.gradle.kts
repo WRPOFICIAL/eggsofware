@@ -33,7 +33,6 @@ tasks.jar {
 }
 
 tasks.withType<JavaCompile> {
-    // Force UTF-8 encoding for all Java compilation
     options.encoding = "UTF-8"
 }
 
